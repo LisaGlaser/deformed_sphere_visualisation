@@ -19,7 +19,7 @@ For more information on the different options try
 ```
 or look into the code itself.
 
-plotscripts contains a simple script to plot the 3d embeddings, and my script for fitting ellipses to the geometries.
+The folder plotscripts contains a simple script to plot the 3d embeddings, and my script for fitting ellipses to the geometries.
 
 # Resource usage indication example: S2
 In this code Lambda=N*(N+1) since the new code uses matrix size N
