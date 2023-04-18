@@ -1,16 +1,22 @@
 This code needs python, with cvxpy installed.
 
 Running the command as
+```
 ./s2_graphmaker_def.py
+```
 without any options given corresponds to 
+```
 ./s2_graphmaker_def.py --dim 12 --input None --output None --time 60 --loop 0 --algebra S2--npoints spec --deformation 1. 1. 1.
+```
 This generates the geometry of a non-deformed sphere and then exits the code before generating states.
 To generate a small fuzzy sphere you might try the command 
-
+```
 ./s2_graphmaker_def.py --dim 4 --output HelloFuzzySphere --time 2000 --loop 1 --algebra S2 --deformation 1. 1. 1.
-
+```
 For more information on the different options try 
+```
 ./s2_graphmaker_def.py --help
+```
 or look into the code itself.
 
 plotscripts contains a simple script to plot the 3d embeddings, and my script for fitting ellipses to the geometries.
